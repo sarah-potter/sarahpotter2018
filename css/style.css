@@ -1,0 +1,432 @@
+/*
+* Custom Styles for SarahPotter.net
+* Based on Bootstrap
+* Copyright 2018, Sarah Potter
+* www.sarahpotter.net
+*/
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 900;
+	letter-spacing: .25px;
+}
+
+p{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	color: #333333;
+	font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Links =============================================================== */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+:hover{
+	-webkit-transition: ease-in .3s;
+    transition: ease-in .3s;
+}
+
+body{
+
+}
+
+.container{
+	max-width: 1200px;
+	position: relative;
+}
+.row{
+	margin: 0 auto;
+}
+img{
+	 max-width: 100%;
+ }
+
+button{
+	background: transparent;
+	border: none !important;
+}
+
+button a{
+	border: 3px solid #D34C59;
+	border-radius: 100px;
+	background: transparent;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 5px 15px;
+	color:#D34C59;
+}
+button.whiteBtn a{
+	border: 3px solid #FFF;
+	color: #FFF;
+	
+	}
+button a:hover{
+	text-decoration: none;
+	background: #D34C59;
+	color: #FFF;
+}
+button.whiteBtn a:hover{
+	border: 3px solid #D34C59;
+	background: #D34C59;
+	color: #FFF;
+}
+ 
+
+/* ============================== */
+/* Hero ========================= */
+/* ============================== */
+
+#hero{
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#363644+0,363644+66,efefef+66,efefef+100 */
+	background: #363644; /* Old browsers */
+	background: -moz-linear-gradient(left, #363644 0%, #363644 64%, #efefef 64%, #efefef 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #363644 0%,#363644 64%,#efefef 64%,#efefef 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #363644 0%,#363644 64%,#efefef 64%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363644', endColorstr='#efefef',GradientType=1 );
+	padding: 2em 0;
+	min-height: 500px;
+}
+
+#hero  .col-8.col-sm-6.col-md-8{
+	position: relative;
+	min-height: 340px;
+}
+#hero-left{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#hero .col-4{
+
+}
+
+
+.placeholderImg{
+	position: absolute;
+	max-width: 30%;
+	left: 51.33%;
+}
+
+#hero h1{
+	color: #FFF;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+#hero h6{
+	color: #FFF;
+	font-size: 1.25em;
+	font-weight: 400;
+	padding-bottom: 1.5em;
+}
+#hero h6 span{
+	color: #FFBF3E;
+}
+
+#hero-left button.whiteBtn{
+	margin-left: -10px;
+}
+
+button.heroBtn{
+	float: right;
+	top: 0;
+}
+
+#kb1 {
+    position: absolute;
+    right: 36%;
+    width: 15.5%;
+    top: 10%;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.25))
+	
+}
+
+#kb1 .carousel-inner.left{
+	background: transparent;
+	 -webkit-mask-box-image: url('../images/ampersand-left.svg');
+	 mask-border: url('../images/ampersand-left.svg');
+	 
+}
+#kb2 {
+    position: absolute;
+    left: 64%;
+    width: 20.25%;
+    top: 10%;
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,0.25))
+}
+
+#kb2 .carousel-inner.right{
+	background: transparent;
+	 -webkit-mask-box-image: url('../images/ampersand-right.svg');
+	 mask-border: url('../images/ampersand-right.svg');
+	 
+}
+
+
+
+
+
+/* ============================== */
+/* SERVICES ===================== */
+/* ============================== */
+#services{
+	padding: 4em 0;
+	margin: 5em 0;
+}
+#services .row{
+	width: 100%;
+	background: #FFF;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+	border-radius: 20px;
+}
+
+#services .col-lg-4.col-md-4.col-sm-4.col-xs-4{
+	padding: 2em 1em 2em 4em;
+}
+#services .col-lg-8.col-md-8.col-sm-8.col-xs-8{
+	padding: 0;
+}
+#services h3{
+	text-transform: uppercase;
+	color: #D34C59;
+	letter-spacing: 4px;
+	padding-bottom: 1em;
+}
+
+.vertical .carousel-inner {
+  height: 100%;
+  background: #363644;
+  	border-radius: 0px 20px 20px 0px; 
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 100%;
+}
+
+.carousel.vertical .prev {
+  top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+#slideContent{
+	text-align: center;
+	color: #FFF;
+	max-width: 80%;
+	margin: 3em auto;
+	
+}
+#slideSVG{
+	background: #252530;
+	padding: 2em;
+	max-width: 50%;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+#slideContent h4{
+	color: #FFBF3E;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Cabin', sans-serif;
+}
+
+#slideContent p{
+	color: #FFF;
+}
+.list-group ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a.list-group-item{
+	border: none;
+	padding: 0 0 1em 0;
+	text-decoration: none;
+	background: transparent !important;
+	color: #222 !important;
+}
+a.list-group-item:hover{
+	background: transparent;
+	color: #FFBF3E !important;
+}
+a.list-group-item:focus{
+	color: #FFBF3E !important;
+	font-weight: bold;
+	background: transparent !important;
+}
+
+
+
+
+/* ============================== */
+/* FW CTA ======================= */
+/* ============================== */
+#fwCTA{
+	background: #363644;
+	padding: 8em 0;
+}
+#fwCTA h3{
+	text-transform: uppercase;
+	color: #2BC19D;
+	letter-spacing: 4px;
+	padding-bottom: 0em;
+}
+#fwCTA p{
+	color: #FFF;
+}
+
+
+#laptopMockup{
+    position: relative;
+    max-width: 60%;
+    left: -10em;
+    top: -14em;
+}
+#laptopMockup img{
+	position: absolute;
+}
+
+
+/* ============================== */
+/* WORK ===================== */
+/* ============================== */
+#work{
+	padding: 4em 0;
+	margin: 5em 0;
+}
+#work .row{
+	width: 100%;
+	background: #FFF;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+	border-radius: 20px;
+}
+#work .col-lg-4.col-md-4.col-sm-4.col-xs-4{
+	padding: 2em 1em 2em 4em;
+}
+
+#work h3{
+	text-transform: uppercase;
+	color: #D34C59;
+	letter-spacing: 4px;
+	padding-bottom: 1em;
+}
+
+
+
+/* ============================== */
+/* FW ABOUT ======================= */
+/* ============================== */
+#fwAbout{
+	background: #363644;
+	padding: 8em 0;
+}
+#fwAbout p{
+	color: #FFF;
+}
+
+/* ============================== */
+/* Footer ======================= */
+/* ============================== */
+
+
+
+/* ============================== */
+/* MOBILE STYLES ================ */
+/* ============================== */
+
+@media (max-width: 1300px) {
+	
+	p{
+		font-size: 1em;
+	}
+	
+	#hero h1{
+		font-size: 2.25em;
+	}
+
+}
+
+@media (max-width: 1249px) {
+	
+
+
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 990px) {
+	
+	.container{
+		max-width: 960px;
+	}
+	
+	p{
+		font-size: .9em;
+		line-height: 1.5;
+	}
+
+
+}/* End 990px mobiles styles */
+
+
+@media (max-width: 749px) {
+	
+
+		
+}
+		
+@media (max-width: 549px) {
+	
+
+	p{
+		font-size: .9em;
+		margin-bottom: .75em;
+	}
+	h2{
+		font-size: 2em;
+		margin-bottom: .25em;	
+	
+}/* End 549px mobiles styles */	
