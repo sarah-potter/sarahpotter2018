@@ -16,8 +16,9 @@ p{
 	font-family: 'Cabin', sans-serif;
 	font-weight: 400;
 	color: #333333;
-	font-size: 1.1em;
+	font-size: 1.15em;
     line-height: 1.6;
+    letter-spacing: .5px;
 }
 
 /* Links =============================================================== */
@@ -183,8 +184,8 @@ button.heroBtn{
 /* SERVICES ===================== */
 /* ============================== */
 #services{
-	padding: 4em 0;
-	margin: 5em 0;
+    padding: 4em 0;
+    margin: 2em 0 6em 0;
 }
 #services .row{
 	width: 100%;
@@ -200,9 +201,8 @@ button.heroBtn{
 	padding: 0;
 }
 #services h3{
-	text-transform: uppercase;
 	color: #D34C59;
-	letter-spacing: 4px;
+    font-size: 2em;
 	padding-bottom: 1em;
 }
 
@@ -261,7 +261,17 @@ button.heroBtn{
 	padding: 2em;
 	max-width: 50%;
 	margin: 0 auto;
-	border-radius: 5px;
+	width: 18em;
+	height: 14em;
+	border-radius: 10px;
+	margin-bottom: 3em;
+}
+#slideSVG svg{
+    width: 150%;
+    margin: 0 auto;
+    position: relative;
+    left: -25%;
+    top: -15%;
 }
 #slideContent h4{
 	color: #FFBF3E;
@@ -285,6 +295,8 @@ a.list-group-item{
 	text-decoration: none;
 	background: transparent !important;
 	color: #222 !important;
+	font-size: 1.25em;
+	font-weight: 400;
 }
 a.list-group-item:hover{
 	background: transparent;
@@ -298,19 +310,17 @@ a.list-group-item:focus{
 
 
 
-
 /* ============================== */
 /* FW CTA ======================= */
 /* ============================== */
 #fwCTA{
 	background: #363644;
-	padding: 8em 0;
+    padding: 4em 0 7em 0;
 }
 #fwCTA h3{
-	text-transform: uppercase;
 	color: #2BC19D;
-	letter-spacing: 4px;
 	padding-bottom: 0em;
+    font-size: 2em;
 }
 #fwCTA p{
 	color: #FFF;
@@ -319,9 +329,9 @@ a.list-group-item:focus{
 
 #laptopMockup{
     position: relative;
-    max-width: 60%;
-    left: -10em;
-    top: -14em;
+    max-width: 54%;
+    left: -9em;
+    top: -10em;
 }
 #laptopMockup img{
 	position: absolute;
@@ -333,7 +343,7 @@ a.list-group-item:focus{
 /* ============================== */
 #work{
 	padding: 4em 0;
-	margin: 5em 0;
+	margin: 4em 0;
 }
 #work .row{
 	width: 100%;
@@ -345,11 +355,17 @@ a.list-group-item:focus{
 	padding: 2em 1em 2em 4em;
 }
 
+#work .col-lg-8.col-md-8.col-sm-8.col-xs-8{
+	background: #363644;
+	padding: 0 !important;
+	border-radius: 0px 20px 20px 0px;
+
+}
+
 #work h3{
-	text-transform: uppercase;
 	color: #D34C59;
-	letter-spacing: 4px;
 	padding-bottom: 1em;
+    font-size: 2em;
 }
 
 
@@ -359,11 +375,57 @@ a.list-group-item:focus{
 /* ============================== */
 #fwAbout{
 	background: #363644;
-	padding: 8em 0;
+	padding: 4em 0 5em 0;
+	margin-bottom: 8em;
+}
+#fwAbout h3{
+	color: #2BC19D;
+	padding-bottom: 0em;
+    font-size: 2em;
 }
 #fwAbout p{
 	color: #FFF;
 }
+#sarahPic{
+	position: absolute;
+	max-width: 80%;
+	margin: 0 auto;
+}
+#sarahPic img{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+    border-radius: 20px;
+}
+
+
+
+/* ============================== */
+/* CONTACT ======================= */
+/* ============================== */
+#contact{
+	padding: 4em 0;
+	margin: 5em 0;
+}
+#contact .row{
+	width: 100%;
+	background: #FFF;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+	border-radius: 20px;
+}
+
+#contact .col-lg-4.col-md-4.col-sm-4.col-xs-4{
+	padding: 2em 1em 2em 4em;
+}
+#contact .col-lg-8.col-md-8.col-sm-8.col-xs-8{
+	padding: 0;
+}
+.formColumn{
+	height: 100%;
+	width: 100%;
+	background: #363644;
+	border-radius: 0px 20px 20px 0px; 
+	color: #FFF;
+}
+
 
 /* ============================== */
 /* Footer ======================= */
