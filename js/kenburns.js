@@ -1,15 +1,8 @@
 /*
 	JavaScript For Bootstrap Carousel
     Description: Bootstrap Carousel Effect Ken Burns
-
 */
 
-$(function ($) {
-
-    /*-----------------------------------------------------------------*/
-    /* ANIMATE SLIDER CAPTION
-    /* Demo Scripts for Bootstrap Carousel and Animate.css article on SitePoint by Maria Antonietta Perna
-    /*-----------------------------------------------------------------*/
     "use strict";
     function doAnimations(elems) {
         //Cache the animationend event in a variable
@@ -35,6 +28,4 @@ $(function ($) {
         doAnimations($animatingElems);
     });
 
-
-
-})(jQuery);
+(jQuery);
