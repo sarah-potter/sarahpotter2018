@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326.91 240.14"><defs><style>.cls-1,.cls-2{fill:none;stroke-miterlimit:10;}.cls-1{stroke:#ffbf3e;stroke-width:5px;}.cls-2{stroke:#d34c59;stroke-width:7px;}.cls-3{fill:#d34c59;}.cls-4{fill:#f1ead1;}.cls-5{fill:#2bc19d;}</style></defs><title>Artboard 6</title><g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M74.66,226c0-28.25,16.15-117,87.45-117,75.34,0,99.55-71.3,99.55-99.55"/><line class="cls-2" x1="17.49" y1="105.94" x2="310.76" y2="105.94"/><circle class="cls-3" cx="16.14" cy="105.94" r="16.14"/><circle class="cls-3" cx="310.76" cy="105.94" r="16.14"/><rect class="cls-4" x="143.27" y="85.76" width="40.36" height="40.36" rx="5" ry="5"/><rect class="cls-5" x="244.17" width="33.63" height="33.63" rx="4" ry="4"/><rect class="cls-5" x="55.16" y="206.5" width="33.63" height="33.63" rx="4" ry="4"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="digitaldesign" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 326.9 240.1" style="enable-background:new 0 0 326.9 240.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFBF3E;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#D34C59;stroke-width:7;stroke-miterlimit:10;}
+	.st2{fill:#D34C59;}
+	.st3{fill:#F1EAD1;}
+	.st4{fill:#2BC19D;}
+</style>
+<path id="yellowLine" class="st0" d="M74.7,226c0-28.2,16.2-117,87.4-117c75.3,0,99.6-71.3,99.6-99.6"/>
+<line id="redLine" class="st1" x1="17.5" y1="105.9" x2="310.8" y2="105.9"/>
+<circle id="leftCircle" class="st2" cx="16.1" cy="105.9" r="16.1"/>
+<circle id="rightCircle" class="st2" cx="310.8" cy="105.9" r="16.1"/>
+<path id="tan-square" class="st3" d="M148.3,85.8h30.4c2.8,0,5,2.2,5,5v30.4c0,2.8-2.2,5-5,5h-30.4c-2.8,0-5-2.2-5-5V90.8
+	C143.3,88,145.5,85.8,148.3,85.8z"/>
+<path id="topSquare" class="st4" d="M248.2,0h25.6c2.2,0,4,1.8,4,4v25.6c0,2.2-1.8,4-4,4h-25.6c-2.2,0-4-1.8-4-4V4
+	C244.2,1.8,246,0,248.2,0z"/>
+<path id="bottomSquare" class="st4" d="M59.2,206.5h25.6c2.2,0,4,1.8,4,4v25.6c0,2.2-1.8,4-4,4H59.2c-2.2,0-4-1.8-4-4v-25.6
+	C55.2,208.3,57,206.5,59.2,206.5z"/>
+</svg>

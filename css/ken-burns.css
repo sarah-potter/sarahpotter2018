@@ -50,8 +50,8 @@
     position:absolute;
     left:0!important;
     display:block!important;
-    -webkit-transform:scale3d(2,1.75,2);
-    transform:scale3d(2,1.75,2);
+    -webkit-transform:scale3d(2,2,2);
+    transform:scale3d(2,2,2);
     -webkit-transition:-webkit-transform .7s ease-in-out 0s,opacity ease-in-out .7s;
     transition:transform .7s ease-in-out 0s,opacity ease-in-out .7s
 }
@@ -64,7 +64,7 @@
 {
     opacity:1;
     z-index:2;
-    -webkit-transform:scale3d(3,2.5,1);
+    -webkit-transform:scale3d(3.5,2.5,1);
     transform:scale3d(3,2.5,1);
     -webkit-transition:-webkit-transform .7s ease-in-out 0s,opacity ease-in-out .7s;
     transition:transform .7s ease-in-out 0s,opacity ease-in-out .7s

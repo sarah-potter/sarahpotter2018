@@ -1,7 +1,42 @@
-var demo = document.getElementById("letteringAnimation");
+
+var tl = new TimelineMax({repeat:-1,repeatDelay:1})
+
+	.to('#tan-square',0.1,{ opacity: 1, scale: 1.5, x: -5, y: -5})
+	.to('#tan-square',.5,{scale: 1, rotation:0,ease:Bounce.easeOut, x: 0, y:0})
+
+	.from('#redLine',.4, {drawSVG: "50% 50%",})
+
+
+	.to('#leftCircle',0.1,{ opacity: 1, scale: 1.5, x: -5, y: -5})
+	.to('#leftCircle',.4,{scale: 1, rotation:0,ease:Bounce.easeOut, x: 0, y:0})
+	.to('#rightCircle',0.1,{ opacity: 1, scale: 1.5, x: -5, y: -5, delay: -.5})
+	.to('#rightCircle',.5,{scale: 1, rotation:0,ease:Bounce.easeOut, x: 0, y:0, delay: -.4})
+
+
+	.from('#yellowLine',.5, {drawSVG: "50% 50%",})
+	.to('#bottomSquare',0.2,{ opacity: 1, scale: 1.5, x: -5, y: -5})
+	.to('#bottomSquare',.5,{scale: 1, rotation:0,ease:Bounce.easeOut, x: 0, y:0})
+	.to('#topSquare',0.2,{ opacity: 1, scale: 1.5, x: -5, y: -5, delay: -.7})
+	.to('#topSquare',.5,{scale: 1, rotation:0,ease:Bounce.easeOut, x: 0, y:0, delay: -.5})
+	
+	.to('#topSquare',0.2,{ opacity: 0, delay: 1})
+	.to('#bottomSquare',0.2,{ opacity: 0, delay: -.2})
+	.to('#yellowLine', .5, {drawSVG: "50% 50%"})
+	
+	.to('#leftCircle',0.2,{ opacity: 0})
+	.to('#rightCircle',0.2,{ opacity: 0, delay: -.2})
+	
+	.to('#redLine',.5, {drawSVG: "50% 50%"})
+	.to('#tan-square',0.2,{ opacity: 0}
+	
+	);
+
+// Lettering Animations
+var linetest = document.getElementById("redLine");
 	
 	var ease = Power2.easeInOut;
 	var ease2 = Power2.easeInOut;
+
 
 	var motionMr = MorphSVGPlugin.pathDataToBezier("#mr", {align: "#target"});
 	var motionDot1 = MorphSVGPlugin.pathDataToBezier("#dot1", {align: "#target"});
@@ -43,8 +78,8 @@ var demo = document.getElementById("letteringAnimation");
 	tl.to("#mrs", 4.5,  {drawSVG:true, ease:ease}, "mrs");
 	tl.to("#target", 4.5, {ease:ease, bezier:{values:motionMrs, type:"cubic"} }, "mrs");
 	
-		// 	Move to next point
-		tl.to("#target", 0.25, { x:2935.56, y:574.91, ease:ease2 });
+	// 	Move to next point
+	tl.to("#target", 0.25, { x:2935.56, y:574.91, ease:ease2 });
 	
 	tl.add("dot2")
 	tl.to("#dot2", .5,  {drawSVG:true, ease:ease}, "dot2");

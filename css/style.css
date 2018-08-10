@@ -308,7 +308,18 @@ a.list-group-item:focus{
 	background: transparent !important;
 }
 
+#letteringAnimation{
+	width: 140%;
+	margin-top: 1em;
+}
+svg#digitaldesign{
+    margin-top: -1em;
+    overflow: visible;
+}
 
+#tan-square, #leftCircle, #rightCircle, #bottomSquare, #topSquare{
+	opacity: 0;
+}
 
 /* ============================== */
 /* FW CTA ======================= */
